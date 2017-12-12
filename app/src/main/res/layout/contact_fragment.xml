@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/contact_fragment"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/phone_number"
+        android:background="@drawable/textview_bg"
+        android:text="@string/place_a_call"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/blackText"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/ic_call"
+        android:onClick="dialNumber"
+        android:layout_marginBottom="5dp"
+        tools:targetApi="m" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/whatsapp"
+        android:background="@drawable/textview_bg"
+        android:text="@string/whatsapp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/blackText"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/ic_all"
+        android:onClick="whatsappText"
+        android:layout_marginBottom="5dp"
+        tools:targetApi="m" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_address"
+        android:background="@drawable/textview_bg"
+        android:text="@string/send_email"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/blackText"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/ic_mail"
+        android:onClick="sendMail"
+        tools:targetApi="m" />
+
+</LinearLayout>

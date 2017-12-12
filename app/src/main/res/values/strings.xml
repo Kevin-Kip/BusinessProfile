@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BusinessProfile</string>
+    <string name="location_of_business">Kiharu, Murang\'a Kenya</string>
+    <string name="description">Amoh is a mobile ice cream retail business found mostly around the gates of Murang\'a University.
+        \n It is owned and run by a group of entrepreneural students whose aim was to make money to
+        gain financial independence.</string>
+    <string name="send_email">Send Email (masterfork5@gmail.com)</string>
+    <string name="place_a_call">Place a call (+254725777777)</string>
+    <string name="phone_number">+254725777777</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="location">Location</string>
+    <string name="email_address">masterfork5@gmail.com</string>
+    <string name="whatsapp_text">https://api.whatsapp.com/send?phone=254725778511&amp;text=I love your business</string>
+    <string name="mail_body">The thing you\'re doing is amazing</string>
+    <string name="mail_subject">I love your business</string>
+    <string name="exact_location">Kiharu, Murang\'a Kenya</string>
+    <string name="title">Amoh Ice Cream \n You just can\'t stop wanting more</string>
+    <string name="website">www.kevinkip.rf.gd</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="web_url">Website</string>
+    <string name="amoh">Amoh Ice Cream</string>
+    <string name="press_again">Press again to exit</string>
+    <string name="po_box">P.O BOX 2575,30100 Murang\'a</string>
+</resources>

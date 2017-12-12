@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/textview_bg"
+        android:drawableStart="@drawable/ic_pin"
+        android:textStyle="bold"
+        android:id="@+id/location"
+        android:textColor="@color/blackText"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/exact_location"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/textview_bg"
+        android:id="@+id/po_box"
+        android:drawableStart="@drawable/ic_mailbox"
+        android:textStyle="bold"
+        android:textColor="@color/blackText"
+        android:drawablePadding="10dp"
+        android:text="@string/po_box"
+        android:onClick="openWebsite"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/textview_bg"
+        android:id="@+id/website"
+        android:drawableStart="@drawable/ic_language"
+        android:textStyle="bold"
+        android:textColor="@color/blackText"
+        android:drawablePadding="10dp"
+        android:text="@string/web_url"
+        android:onClick="openWebsite"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
